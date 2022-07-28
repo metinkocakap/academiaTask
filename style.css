@@ -1,0 +1,146 @@
+  @font-face {
+    font-family: InterRegular;
+    src: url(assets/fonts/Inter-SemiBold.ttf);
+  
+    }
+    @font-face {
+      font-family: InterBold;
+      src: url(assets/fonts/Inter-Bold.ttf);
+  
+      }
+      @font-face {
+        font-family: InterThinBeta;
+        src: url(assets/fonts/Inter-Medium.ttf);
+        
+        }
+
+html,
+body {
+  background: #eee;
+  height: 100%;
+  
+
+}
+h1{
+  font-size: 45px!important;
+font-family: InterBold;
+  color: black!important;
+}
+p{
+  font-family: InterRegular;
+  font-size: 17px;
+  color: black!important;
+}
+.swiperText{
+  font-family: InterRegular;
+  font-size: 17px;
+  color: white!important;
+}
+.description{
+  font-family: InterThinBeta;
+  font-size: 16px;
+}
+/*Slider*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*Slider*/
+
+
+/*Kaydırmalı kart yapısı*/
+.swiperContainer{
+height: 500px;
+background-color: #eee;
+}
+
+.swiper {
+  height: 100%;
+ width: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+#swiper1{
+    background-color:black;
+}
+#swiper2{
+    background-color: rgb(252, 203, 125);
+}
+#swiper3{
+    background-color: rgb(250, 199, 32);
+}
+#swiper4{
+    background-color: rgb(208, 208, 208);
+}
+/*Kaydırmalı kart yapısı*/
+
+@media only screen and (max-width: 1230px) {
+ #swiper1{
+  width:60%!important ;
+ }
+ #swiper2{
+  width:60%!important ;
+ }
+ #swiper3{
+  width:60%!important ;
+ }
+ #swiper4{
+  width:60%!important ;
+ }
+ .slider2{
+
+ }
+}
+@media only screen and (max-width: 698px) {
+
+  .slider2{
+   margin-top: 450px!important;
+  }
+ }
